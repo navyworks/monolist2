@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
+# デバッグ用「binding.pry」を書くとブレークポイントとして処理を止めてくれてステップ実行が可能になる。
+gem 'pry-byebug'
+
+# 「rails console」を利用する際に出力結果を見やすく表示
+gem "hirb"
+gem "hirb-unicode"
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
